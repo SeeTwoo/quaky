@@ -6,6 +6,12 @@
 
 #include "quaky.h"
 
+void	new_line(struct s_quaky *game, uint8_t i, uint8_t j)
+{
+	if (j == 7)
+		realloc
+}
+
 int	parse_map(struct s_quaky *game)
 {
 	int		fd = open("map.qke", O_RDONLY);
